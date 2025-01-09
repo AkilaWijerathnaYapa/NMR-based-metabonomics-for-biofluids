@@ -1,0 +1,43 @@
+##TITLE= Audit trail, TopSpin 4.1.4
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ M:/data/Sokolenko/nmr/P1/1/pdata/2/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2025-01-08 19:46:13.768 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <acquisition in progress>)
+$$ M:/data/Sokolenko/nmr/P1/1/audita.txt
+(   2,<2025-01-08 19:46:35.170 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <created by zg on 'Avance NEO 500' (CZC1459CSP) by user 'CZC1459CSP\nmr'
+       on data set with UUID '379e8a6e-cdf9-11ef-96ca-0030d62dd8fa'
+       started at 2025-01-08 19:46:13.947 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2025-01-08 19:46:35.166 +0000
+       configuration hash MD5:
+       EC 85 D1 F8 9E 0A 3A 5E B7 23 E6 6E 90 B5 BB FB
+       double data hash MD5: 32K
+       42 11 EE CA 56 25 1A 35 C0 B5 CE 7F 35 4F FE 07>)
+(   3,<2025-01-08 15:46:40.145 -0400>,<nmr>,<CZC1459CSP>,<proc1d>,<TopSpin 4.1.4>,
+      <Start of raw data processing
+       ef LB = 10 FT_mod = 6 PKNL = 1 SI = 64K 
+       data hash MD5: 64K
+       65 67 8C B7 E5 FE 27 9B A5 93 7D 04 47 F4 59 54>)
+(   4,<2025-01-08 15:46:40.692 -0400>,<nmr>,<CZC1459CSP>,<proc1d>,<TopSpin 4.1.4>,
+      <apk 
+       data hash MD5: 64K
+       16 F5 8A 94 09 6F 3E 29 4E F0 0B 70 99 5D 5C AE>)
+(   5,<2025-01-08 15:46:40.880 -0400>,<nmr>,<CZC1459CSP>,<proc1d>,<TopSpin 4.1.4>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       8C 4C 52 37 39 C9 9B 79 30 3D 82 70 04 8C 71 A1>)
+(   6,<2025-01-08 15:46:41.145 -0400>,<nmr>,<CZC1459CSP>,<peak>,<TopSpin 4.1.4>,
+      <1D Peak picking
+       data hash MD5: 64K
+       8C 4C 52 37 39 C9 9B 79 30 3D 82 70 04 8C 71 A1>)
+(   7,<2025-01-08 15:46:41.817 -0400>,<nmr>,<CZC1459CSP>,<dirdata>,<TopSpin 4.1.4>,
+      <wrp from 1 1 "P1" "M:/data/Sokolenko/nmr"
+       data hash MD5: 64K
+       8C 4C 52 37 39 C9 9B 79 30 3D 82 70 04 8C 71 A1>)
+##END=
+
+$$ hash MD5
+$$ A7 D9 2C 6D 46 70 7A C6 6F D4 B1 7A 14 35 C8 06

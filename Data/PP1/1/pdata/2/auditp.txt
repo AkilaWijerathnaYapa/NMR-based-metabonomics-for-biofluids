@@ -1,0 +1,43 @@
+##TITLE= Audit trail, TopSpin 4.1.4
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ M:/data/Sokolenko/nmr/PP1/1/pdata/2/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2025-01-08 21:55:13.718 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <acquisition in progress>)
+$$ M:/data/Sokolenko/nmr/PP1/1/audita.txt
+(   2,<2025-01-08 21:55:34.889 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <created by zg on 'Avance NEO 500' (CZC1459CSP) by user 'CZC1459CSP\nmr'
+       on data set with UUID '3d00528c-ce0b-11ef-bbd6-0030d62dd8fa'
+       started at 2025-01-08 21:55:13.829 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2025-01-08 21:55:34.885 +0000
+       configuration hash MD5:
+       EC 85 D1 F8 9E 0A 3A 5E B7 23 E6 6E 90 B5 BB FB
+       double data hash MD5: 32K
+       E4 D9 F0 BD 44 CD DD F9 DE 5A 0D 2D 8B E2 61 4C>)
+(   3,<2025-01-08 17:55:39.882 -0400>,<nmr>,<CZC1459CSP>,<proc1d>,<TopSpin 4.1.4>,
+      <Start of raw data processing
+       ef LB = 10 FT_mod = 6 PKNL = 1 SI = 64K 
+       data hash MD5: 64K
+       E0 93 1F 75 D5 9E 1C 1F 9D 6F 5C 7F 84 F3 39 8A>)
+(   4,<2025-01-08 17:55:40.304 -0400>,<nmr>,<CZC1459CSP>,<proc1d>,<TopSpin 4.1.4>,
+      <apk 
+       data hash MD5: 64K
+       DD DC 08 63 AA 6E C7 6E 0F F9 BB C2 35 34 08 62>)
+(   5,<2025-01-08 17:55:40.491 -0400>,<nmr>,<CZC1459CSP>,<proc1d>,<TopSpin 4.1.4>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       57 3D 23 93 9C 87 6C 17 A2 66 76 68 64 8A 9B 3C>)
+(   6,<2025-01-08 17:55:40.757 -0400>,<nmr>,<CZC1459CSP>,<peak>,<TopSpin 4.1.4>,
+      <1D Peak picking
+       data hash MD5: 64K
+       57 3D 23 93 9C 87 6C 17 A2 66 76 68 64 8A 9B 3C>)
+(   7,<2025-01-08 17:55:41.444 -0400>,<nmr>,<CZC1459CSP>,<dirdata>,<TopSpin 4.1.4>,
+      <wrp from 1 1 "PP1" "M:/data/Sokolenko/nmr"
+       data hash MD5: 64K
+       57 3D 23 93 9C 87 6C 17 A2 66 76 68 64 8A 9B 3C>)
+##END=
+
+$$ hash MD5
+$$ B8 BF 11 CB 4B CA 13 52 D2 74 C8 23 99 F4 EA FE

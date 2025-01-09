@@ -1,0 +1,43 @@
+##TITLE= Audit trail, TopSpin 4.1.4
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ M:/data/Sokolenko/nmr/P2/1/pdata/2/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2025-01-08 20:51:26.254 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <acquisition in progress>)
+$$ M:/data/Sokolenko/nmr/P2/1/audita.txt
+(   2,<2025-01-08 20:51:48.196 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <created by zg on 'Avance NEO 500' (CZC1459CSP) by user 'CZC1459CSP\nmr'
+       on data set with UUID '53aac372-ce02-11ef-b031-0030d62dd8fa'
+       started at 2025-01-08 20:51:26.372 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2025-01-08 20:51:48.193 +0000
+       configuration hash MD5:
+       EC 85 D1 F8 9E 0A 3A 5E B7 23 E6 6E 90 B5 BB FB
+       double data hash MD5: 32K
+       90 7A D2 BC DE BA 4F D7 74 FC 26 FB 04 2C EA 72>)
+(   3,<2025-01-08 16:51:53.422 -0400>,<nmr>,<CZC1459CSP>,<proc1d>,<TopSpin 4.1.4>,
+      <Start of raw data processing
+       ef LB = 10 FT_mod = 6 PKNL = 1 SI = 64K 
+       data hash MD5: 64K
+       48 4D 04 1D F5 A7 51 0A AF 85 68 D0 41 F9 5A 3E>)
+(   4,<2025-01-08 16:51:53.843 -0400>,<nmr>,<CZC1459CSP>,<proc1d>,<TopSpin 4.1.4>,
+      <apk 
+       data hash MD5: 64K
+       FC B5 5F 7C B5 F1 34 88 14 52 86 E8 63 1C CE 29>)
+(   5,<2025-01-08 16:51:54.047 -0400>,<nmr>,<CZC1459CSP>,<proc1d>,<TopSpin 4.1.4>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       0B 7C 66 71 B5 B8 EA 95 89 C5 32 55 45 76 82 E4>)
+(   6,<2025-01-08 16:51:54.437 -0400>,<nmr>,<CZC1459CSP>,<peak>,<TopSpin 4.1.4>,
+      <1D Peak picking
+       data hash MD5: 64K
+       0B 7C 66 71 B5 B8 EA 95 89 C5 32 55 45 76 82 E4>)
+(   7,<2025-01-08 16:51:55.140 -0400>,<nmr>,<CZC1459CSP>,<dirdata>,<TopSpin 4.1.4>,
+      <wrp from 1 1 "P2" "M:/data/Sokolenko/nmr"
+       data hash MD5: 64K
+       0B 7C 66 71 B5 B8 EA 95 89 C5 32 55 45 76 82 E4>)
+##END=
+
+$$ hash MD5
+$$ 3B 18 1F 4B 67 3B 1C DC DF 92 91 14 73 D4 6A 04

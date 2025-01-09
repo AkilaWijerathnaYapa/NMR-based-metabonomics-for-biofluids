@@ -1,0 +1,43 @@
+##TITLE= Audit trail, TopSpin 4.1.4
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ M:/data/Sokolenko/nmr/V2/1/pdata/2/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2025-01-08 20:19:06.338 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <acquisition in progress>)
+$$ M:/data/Sokolenko/nmr/V2/1/audita.txt
+(   2,<2025-01-08 20:19:28.848 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <created by zg on 'Avance NEO 500' (CZC1459CSP) by user 'CZC1459CSP\nmr'
+       on data set with UUID 'cf67ab56-cdfd-11ef-a2fd-0030d62dd8fa'
+       started at 2025-01-08 20:19:06.551 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2025-01-08 20:19:28.845 +0000
+       configuration hash MD5:
+       EC 85 D1 F8 9E 0A 3A 5E B7 23 E6 6E 90 B5 BB FB
+       double data hash MD5: 32K
+       BE C7 9A 26 B7 C2 F7 4B 73 B4 B8 22 6F 77 5E 6A>)
+(   3,<2025-01-08 16:19:33.908 -0400>,<nmr>,<CZC1459CSP>,<proc1d>,<TopSpin 4.1.4>,
+      <Start of raw data processing
+       ef LB = 10 FT_mod = 6 PKNL = 1 SI = 64K 
+       data hash MD5: 64K
+       14 62 B4 78 AE EC 2F 85 D9 5C F2 17 E1 D2 DF 07>)
+(   4,<2025-01-08 16:19:34.424 -0400>,<nmr>,<CZC1459CSP>,<proc1d>,<TopSpin 4.1.4>,
+      <apk 
+       data hash MD5: 64K
+       AF 20 04 82 EB 77 BF 73 E0 38 91 3C C9 6A E3 C2>)
+(   5,<2025-01-08 16:19:34.611 -0400>,<nmr>,<CZC1459CSP>,<proc1d>,<TopSpin 4.1.4>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       8B 62 8D 53 44 B7 81 30 FC 78 76 04 18 CF 68 4A>)
+(   6,<2025-01-08 16:19:34.892 -0400>,<nmr>,<CZC1459CSP>,<peak>,<TopSpin 4.1.4>,
+      <1D Peak picking
+       data hash MD5: 64K
+       8B 62 8D 53 44 B7 81 30 FC 78 76 04 18 CF 68 4A>)
+(   7,<2025-01-08 16:19:35.564 -0400>,<nmr>,<CZC1459CSP>,<dirdata>,<TopSpin 4.1.4>,
+      <wrp from 1 1 "V2" "M:/data/Sokolenko/nmr"
+       data hash MD5: 64K
+       8B 62 8D 53 44 B7 81 30 FC 78 76 04 18 CF 68 4A>)
+##END=
+
+$$ hash MD5
+$$ E7 2B F3 C3 68 E1 55 35 0B 03 F1 3A 69 91 82 97

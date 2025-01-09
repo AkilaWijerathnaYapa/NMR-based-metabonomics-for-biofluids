@@ -1,0 +1,39 @@
+##TITLE= Audit trail, TopSpin 4.1.4
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= root
+$$ /root/.topspin-BladeEpu/local_acqu/PP1/1/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2025-01-08 21:55:13.718 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <acquisition in progress>)
+$$ M:/data/Sokolenko/nmr/PP1/1/audita.txt
+(   2,<2025-01-08 21:55:34.889 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <created by zg on 'Avance NEO 500' (CZC1459CSP) by user 'CZC1459CSP\nmr'
+       on data set with UUID '3d00528c-ce0b-11ef-bbd6-0030d62dd8fa'
+       started at 2025-01-08 21:55:13.829 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2025-01-08 21:55:34.885 +0000
+       configuration hash MD5:
+       EC 85 D1 F8 9E 0A 3A 5E B7 23 E6 6E 90 B5 BB FB
+       double data hash MD5: 32K
+       E4 D9 F0 BD 44 CD DD F9 DE 5A 0D 2D 8B E2 61 4C>)
+(   3,<2025-01-08 21:56:34.254 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <raw data deleted by zg>)
+(   4,<2025-01-08 21:56:34.270 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <acquisition in progress>)
+(   5,<2025-01-08 22:18:06.052 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <created by zg on 'Avance NEO 500' (CZC1459CSP) by user 'CZC1459CSP\nmr'
+       on data set with UUID '6d09942a-ce0b-11ef-b7c4-0030d62dd8fa'
+       started at 2025-01-08 21:56:34.361 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2025-01-08 22:18:06.048 +0000
+       configuration hash MD5:
+       EC 85 D1 F8 9E 0A 3A 5E B7 23 E6 6E 90 B5 BB FB
+       double data hash MD5: 32K
+       6C 51 32 45 07 EA 38 25 79 C9 26 3F DD 43 C9 56>)
+(   6,<2025-01-08 18:18:13.401 -0400>,<nmr>,<CZC1459CSP>,<xwish3>,<TopSpin 4.1.4>,
+      <ICON-NMR User ID: Sokolenko
+       double data hash MD5: 32K
+       6C 51 32 45 07 EA 38 25 79 C9 26 3F DD 43 C9 56>)
+##END=
+
+$$ hash MD5
+$$ 40 9D EA F8 16 C6 17 F5 68 5C 3B F1 CE 3D 5D AF

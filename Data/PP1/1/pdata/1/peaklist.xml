@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PeakList>
+  <PeakList1D>
+    <PeakList1DHeader creator="nmr" date="2025-01-08T18:18:15.010-04:00" expNo="1" name="PP1" owner="" procNo="1" source="M:/data/Sokolenko/nmr">
+      <PeakPickDetails>F1=5.196825ppm, F2=-0.613312ppm, MI=1.00cm, MAXI=16.00cm, PC=1.000
+      </PeakPickDetails>
+    </PeakList1DHeader>
+    <Peak1D F1="4.696825" intensity="1.500000e+01" type="0"/>
+    <Peak1D F1="1.238847" intensity="1.832579e+00" type="0"/>
+    <Peak1D F1="1.225003" intensity="1.805188e+00" type="0"/>
+  </PeakList1D>
+</PeakList>

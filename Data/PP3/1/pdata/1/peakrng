@@ -1,0 +1,5 @@
+P    #regions in PPM
+# 2025-01-08 19:22:25 -0400  nmr@CZC1459CSP
+# low field   high field   mi   maxi
+  15.1269998550415  15.113339887390099  0.100  16.000  # for region 1
+  15.1133298873901  -5.71333891192748  1.000  16.000  # for region 2

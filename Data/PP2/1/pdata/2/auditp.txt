@@ -1,0 +1,43 @@
+##TITLE= Audit trail, TopSpin 4.1.4
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ M:/data/Sokolenko/nmr/PP2/1/pdata/2/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2025-01-08 22:27:08.847 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <acquisition in progress>)
+$$ M:/data/Sokolenko/nmr/PP2/1/audita.txt
+(   2,<2025-01-08 22:27:30.088 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <created by zg on 'Avance NEO 500' (CZC1459CSP) by user 'CZC1459CSP\nmr'
+       on data set with UUID 'b28492bc-ce0f-11ef-9182-0030d62dd8fa'
+       started at 2025-01-08 22:27:08.957 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2025-01-08 22:27:30.085 +0000
+       configuration hash MD5:
+       EC 85 D1 F8 9E 0A 3A 5E B7 23 E6 6E 90 B5 BB FB
+       double data hash MD5: 32K
+       2D A5 A0 08 38 F6 6F 0D 0C EA 22 99 39 E6 3F 87>)
+(   3,<2025-01-08 18:27:35.127 -0400>,<nmr>,<CZC1459CSP>,<proc1d>,<TopSpin 4.1.4>,
+      <Start of raw data processing
+       ef LB = 10 FT_mod = 6 PKNL = 1 SI = 64K 
+       data hash MD5: 64K
+       6C 34 91 2F 40 84 D8 A0 1A 4B 31 66 DC 9C DC 08>)
+(   4,<2025-01-08 18:27:35.752 -0400>,<nmr>,<CZC1459CSP>,<proc1d>,<TopSpin 4.1.4>,
+      <apk 
+       data hash MD5: 64K
+       5C 46 23 29 A4 A7 2A 0F F7 23 08 58 CD 36 0F E3>)
+(   5,<2025-01-08 18:27:35.955 -0400>,<nmr>,<CZC1459CSP>,<proc1d>,<TopSpin 4.1.4>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       68 A6 C5 9C DD F3 F7 08 BD CB 49 44 C5 5D E8 50>)
+(   6,<2025-01-08 18:27:36.221 -0400>,<nmr>,<CZC1459CSP>,<peak>,<TopSpin 4.1.4>,
+      <1D Peak picking
+       data hash MD5: 64K
+       68 A6 C5 9C DD F3 F7 08 BD CB 49 44 C5 5D E8 50>)
+(   7,<2025-01-08 18:27:36.877 -0400>,<nmr>,<CZC1459CSP>,<dirdata>,<TopSpin 4.1.4>,
+      <wrp from 1 1 "PP2" "M:/data/Sokolenko/nmr"
+       data hash MD5: 64K
+       68 A6 C5 9C DD F3 F7 08 BD CB 49 44 C5 5D E8 50>)
+##END=
+
+$$ hash MD5
+$$ A9 58 25 D8 6F F1 E9 F1 40 99 C0 67 0E 47 67 BE

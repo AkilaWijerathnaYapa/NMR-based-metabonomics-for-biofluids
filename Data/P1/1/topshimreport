@@ -1,0 +1,73 @@
+
+New TopShim run:
+
+version = topshim 2.2.0
+date = 2025-01-08
+time = 15:43:02.005
+command = topshim tune tuneaxyz
+
+TUNE
+
+Parameters:
+
+probe = Z168792_0005
+solvent = D2O
+
+Results:
+
+
+Performing tune after shimming
+tune lock level increase = 1.1
+
+shim changes: 
+Z	+79
+X	-1
+Y	-32
+
+duration = 1 min 45 sec
+completed successfully
+finished Wed Jan  8 15:44:45 2025
+
+
+========================================================================
+
+New TopShim run:
+
+version = topshim 2.2.0
+date = 2025-01-08
+time = 15:44:47.059
+command = topshim fastfine ordmax=6 plot tcorr=10,0
+
+FAST FINE SHIMMING
+
+Parameters:
+
+probe = Z168792_0005
+solvent = D2O
+shim nucleus = 2H
+nucleus optimised for = 1H
+o1p (from lock) = 4.70 ppm
+
+Results:
+
+
+1D Shimming:
+
+FASTFINE mode: shims have been set.
+
+Fixed offsets were added to compensate for temperature effects: Z = +10, Z2 = +0
+
+shim changes: 
+Z	+5
+Z2	+4
+Z3	-2
+Z4	+263
+Z5	+74
+Z6	-319
+
+duration = 30 sec
+completed successfully
+finished Wed Jan  8 15:45:15 2025
+
+
+========================================================================

@@ -1,0 +1,39 @@
+##TITLE= Audit trail, TopSpin 4.1.4
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= root
+$$ /root/.topspin-BladeEpu/local_acqu/PP2/1/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2025-01-08 22:27:08.847 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <acquisition in progress>)
+$$ M:/data/Sokolenko/nmr/PP2/1/audita.txt
+(   2,<2025-01-08 22:27:30.088 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <created by zg on 'Avance NEO 500' (CZC1459CSP) by user 'CZC1459CSP\nmr'
+       on data set with UUID 'b28492bc-ce0f-11ef-9182-0030d62dd8fa'
+       started at 2025-01-08 22:27:08.957 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2025-01-08 22:27:30.085 +0000
+       configuration hash MD5:
+       EC 85 D1 F8 9E 0A 3A 5E B7 23 E6 6E 90 B5 BB FB
+       double data hash MD5: 32K
+       2D A5 A0 08 38 F6 6F 0D 0C EA 22 99 39 E6 3F 87>)
+(   3,<2025-01-08 22:28:37.817 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <raw data deleted by zg>)
+(   4,<2025-01-08 22:28:37.834 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <acquisition in progress>)
+(   5,<2025-01-08 22:50:10.600 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <created by zg on 'Avance NEO 500' (CZC1459CSP) by user 'CZC1459CSP\nmr'
+       on data set with UUID 'e78a7594-ce0f-11ef-9132-0030d62dd8fa'
+       started at 2025-01-08 22:28:37.924 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2025-01-08 22:50:10.596 +0000
+       configuration hash MD5:
+       EC 85 D1 F8 9E 0A 3A 5E B7 23 E6 6E 90 B5 BB FB
+       double data hash MD5: 32K
+       FF 08 AA B2 D5 13 0E 3D 72 FD 71 5A AD 47 D4 C9>)
+(   6,<2025-01-08 18:50:17.705 -0400>,<nmr>,<CZC1459CSP>,<xwish3>,<TopSpin 4.1.4>,
+      <ICON-NMR User ID: Sokolenko
+       double data hash MD5: 32K
+       FF 08 AA B2 D5 13 0E 3D 72 FD 71 5A AD 47 D4 C9>)
+##END=
+
+$$ hash MD5
+$$ 3E 3E ED 80 0F 60 80 BD F9 67 D2 D2 8A 98 9E 3D

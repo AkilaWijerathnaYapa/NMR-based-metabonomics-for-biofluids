@@ -1,0 +1,39 @@
+##TITLE= Audit trail, TopSpin 4.1.4
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= root
+$$ /root/.topspin-BladeEpu/local_acqu/V3/1/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2025-01-08 18:36:32.635 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <acquisition in progress>)
+$$ M:/data/Sokolenko/nmr/V3/1/audita.txt
+(   2,<2025-01-08 18:36:54.294 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <created by zg on 'Avance NEO 500' (CZC1459CSP) by user 'CZC1459CSP\nmr'
+       on data set with UUID '7b7d77cc-cdef-11ef-9f37-0030d62dd8fa'
+       started at 2025-01-08 18:36:32.748 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2025-01-08 18:36:54.290 +0000
+       configuration hash MD5:
+       EC 85 D1 F8 9E 0A 3A 5E B7 23 E6 6E 90 B5 BB FB
+       double data hash MD5: 32K
+       D5 B8 BB 74 0E 5E 69 F1 B9 CF B7 BA 69 59 2E 82>)
+(   3,<2025-01-08 18:37:59.693 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <raw data deleted by zg>)
+(   4,<2025-01-08 18:37:59.714 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <acquisition in progress>)
+(   5,<2025-01-08 18:59:31.864 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <created by zg on 'Avance NEO 500' (CZC1459CSP) by user 'CZC1459CSP\nmr'
+       on data set with UUID 'af5fe8c2-cdef-11ef-9840-0030d62dd8fa'
+       started at 2025-01-08 18:37:59.819 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2025-01-08 18:59:31.861 +0000
+       configuration hash MD5:
+       EC 85 D1 F8 9E 0A 3A 5E B7 23 E6 6E 90 B5 BB FB
+       double data hash MD5: 32K
+       55 BA 34 64 D6 A9 39 5A 6C 7C A5 EC 02 85 EC 62>)
+(   6,<2025-01-08 14:59:39.287 -0400>,<nmr>,<CZC1459CSP>,<xwish3>,<TopSpin 4.1.4>,
+      <ICON-NMR User ID: Sokolenko
+       double data hash MD5: 32K
+       55 BA 34 64 D6 A9 39 5A 6C 7C A5 EC 02 85 EC 62>)
+##END=
+
+$$ hash MD5
+$$ E9 DA 2A B3 EF 4E A1 4C F6 0F DB E0 7F 3D 79 3A

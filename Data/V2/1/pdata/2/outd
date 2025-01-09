@@ -1,0 +1,16 @@
+##TITLE= Parameter file, TopSpin 4.1.4
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ 2025-01-08 16:19:35.408 -0400  nmr@CZC1459CSP
+$$ M:/data/Sokolenko/nmr/V2/1/pdata/2/outd
+$$ process C:\Bruker\TopSpin4.1.4\prog\mod\dirdata.exe
+##$CURPLOT= <Microsoft Print to PDF>
+##$CURPRIN= <$>
+##$DFORMAT= <normdp>
+##$LAYOUT= <+/NMR3_1H.xwp>
+##$LFORMAT= <normlp>
+##$PFORMAT= <normpl>
+##END=

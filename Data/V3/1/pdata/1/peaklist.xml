@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PeakList>
+  <PeakList1D>
+    <PeakList1DHeader creator="nmr" date="2025-01-08T14:59:40.709-04:00" expNo="1" name="V3" owner="" procNo="1" source="M:/data/Sokolenko/nmr">
+      <PeakPickDetails>F1=8.859391ppm, F2=-0.619153ppm, MI=1.00cm, MAXI=16.00cm, PC=1.000
+      </PeakPickDetails>
+    </PeakList1DHeader>
+    <Peak1D F1="4.695433" intensity="1.500000e+01" type="0"/>
+    <Peak1D F1="4.033464" intensity="2.067832e+00" type="0"/>
+    <Peak1D F1="4.019653" intensity="2.309205e+00" type="0"/>
+    <Peak1D F1="3.914880" intensity="1.277915e+00" type="0"/>
+    <Peak1D F1="3.906472" intensity="1.039617e+00" type="0"/>
+    <Peak1D F1="3.817923" intensity="1.090890e+00" type="0"/>
+    <Peak1D F1="3.797806" intensity="1.371993e+00" type="0"/>
+    <Peak1D F1="3.791591" intensity="1.519835e+00" type="0"/>
+    <Peak1D F1="3.714350" intensity="1.827762e+00" type="0"/>
+    <Peak1D F1="3.694356" intensity="1.491716e+00" type="0"/>
+    <Peak1D F1="3.638571" intensity="1.045176e+00" type="0"/>
+    <Peak1D F1="3.633193" intensity="1.492643e+00" type="0"/>
+    <Peak1D F1="3.625413" intensity="1.421174e+00" type="0"/>
+    <Peak1D F1="3.621991" intensity="1.528540e+00" type="0"/>
+    <Peak1D F1="3.609730" intensity="1.746986e+00" type="0"/>
+    <Peak1D F1="3.600393" intensity="1.333446e+00" type="0"/>
+    <Peak1D F1="3.596934" intensity="1.084783e+00" type="0"/>
+    <Peak1D F1="3.480854" intensity="1.613696e+00" type="0"/>
+    <Peak1D F1="3.457232" intensity="1.729701e+00" type="0"/>
+    <Peak1D F1="3.168624" intensity="1.301321e+00" type="0"/>
+    <Peak1D F1="2.308474" intensity="1.922351e+00" type="0"/>
+    <Peak1D F1="1.946656" intensity="1.630230e+00" type="0"/>
+    <Peak1D F1="1.389938" intensity="1.005920e+00" type="0"/>
+    <Peak1D F1="1.375462" intensity="1.002196e+00" type="0"/>
+    <Peak1D F1="1.241658" intensity="9.713208e+00" type="0"/>
+    <Peak1D F1="1.227813" intensity="9.572451e+00" type="0"/>
+  </PeakList1D>
+</PeakList>

@@ -1,0 +1,43 @@
+##TITLE= Audit trail, TopSpin 4.1.4
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ M:/data/Sokolenko/nmr/PP3/1/pdata/2/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2025-01-08 22:59:19.101 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <acquisition in progress>)
+$$ M:/data/Sokolenko/nmr/PP3/1/audita.txt
+(   2,<2025-01-08 22:59:40.421 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <created by zg on 'Avance NEO 500' (CZC1459CSP) by user 'CZC1459CSP\nmr'
+       on data set with UUID '311349d0-ce14-11ef-8272-0030d62dd8fa'
+       started at 2025-01-08 22:59:19.209 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2025-01-08 22:59:40.418 +0000
+       configuration hash MD5:
+       EC 85 D1 F8 9E 0A 3A 5E B7 23 E6 6E 90 B5 BB FB
+       double data hash MD5: 32K
+       E3 FA DF 64 EB 02 E8 01 F0 08 4F A2 96 C2 6F 78>)
+(   3,<2025-01-08 18:59:45.492 -0400>,<nmr>,<CZC1459CSP>,<proc1d>,<TopSpin 4.1.4>,
+      <Start of raw data processing
+       ef LB = 10 FT_mod = 6 PKNL = 1 SI = 64K 
+       data hash MD5: 64K
+       7A DD 5B A1 4C 80 FC 3C 46 6B 3B C7 1C 14 D8 50>)
+(   4,<2025-01-08 18:59:46.055 -0400>,<nmr>,<CZC1459CSP>,<proc1d>,<TopSpin 4.1.4>,
+      <apk 
+       data hash MD5: 64K
+       9D EB 51 6D 7A A9 49 23 70 8A 3A BB 15 73 7F 9F>)
+(   5,<2025-01-08 18:59:46.242 -0400>,<nmr>,<CZC1459CSP>,<proc1d>,<TopSpin 4.1.4>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       9F 85 78 9A 97 F9 46 B9 62 8B DB E0 8D 4A 61 AA>)
+(   6,<2025-01-08 18:59:46.539 -0400>,<nmr>,<CZC1459CSP>,<peak>,<TopSpin 4.1.4>,
+      <1D Peak picking
+       data hash MD5: 64K
+       9F 85 78 9A 97 F9 46 B9 62 8B DB E0 8D 4A 61 AA>)
+(   7,<2025-01-08 18:59:47.304 -0400>,<nmr>,<CZC1459CSP>,<dirdata>,<TopSpin 4.1.4>,
+      <wrp from 1 1 "PP3" "M:/data/Sokolenko/nmr"
+       data hash MD5: 64K
+       9F 85 78 9A 97 F9 46 B9 62 8B DB E0 8D 4A 61 AA>)
+##END=
+
+$$ hash MD5
+$$ 0B E9 08 A6 DF AB B7 4B C0 A2 05 8A 8A F6 BD D7

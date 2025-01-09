@@ -1,0 +1,39 @@
+##TITLE= Audit trail, TopSpin 4.1.4
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= root
+$$ /root/.topspin-BladeEpu/local_acqu/P3/1/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2025-01-08 21:23:22.125 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <acquisition in progress>)
+$$ M:/data/Sokolenko/nmr/P3/1/audita.txt
+(   2,<2025-01-08 21:23:44.402 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <created by zg on 'Avance NEO 500' (CZC1459CSP) by user 'CZC1459CSP\nmr'
+       on data set with UUID 'c99e4e88-ce06-11ef-b786-0030d62dd8fa'
+       started at 2025-01-08 21:23:22.266 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2025-01-08 21:23:44.398 +0000
+       configuration hash MD5:
+       EC 85 D1 F8 9E 0A 3A 5E B7 23 E6 6E 90 B5 BB FB
+       double data hash MD5: 32K
+       3B A9 65 25 E7 9C 94 E0 2A EA C7 12 33 E6 96 8E>)
+(   3,<2025-01-08 21:24:42.396 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <raw data deleted by zg>)
+(   4,<2025-01-08 21:24:42.413 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <acquisition in progress>)
+(   5,<2025-01-08 21:46:14.431 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <created by zg on 'Avance NEO 500' (CZC1459CSP) by user 'CZC1459CSP\nmr'
+       on data set with UUID 'f9759e36-ce06-11ef-8448-0030d62dd8fa'
+       started at 2025-01-08 21:24:42.502 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2025-01-08 21:46:14.427 +0000
+       configuration hash MD5:
+       EC 85 D1 F8 9E 0A 3A 5E B7 23 E6 6E 90 B5 BB FB
+       double data hash MD5: 32K
+       3D C0 1C 79 D1 FC D4 79 CE C1 71 0E 0D 77 11 06>)
+(   6,<2025-01-08 17:46:21.638 -0400>,<nmr>,<CZC1459CSP>,<xwish3>,<TopSpin 4.1.4>,
+      <ICON-NMR User ID: Sokolenko
+       double data hash MD5: 32K
+       3D C0 1C 79 D1 FC D4 79 CE C1 71 0E 0D 77 11 06>)
+##END=
+
+$$ hash MD5
+$$ D0 A7 65 0E 41 99 47 7B F7 A4 7D 70 EF 4C 5D 52

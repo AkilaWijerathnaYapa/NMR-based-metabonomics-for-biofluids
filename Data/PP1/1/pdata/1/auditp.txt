@@ -1,0 +1,64 @@
+##TITLE= Audit trail, TopSpin 4.1.4
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ M:/data/Sokolenko/nmr/PP1/1/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2025-01-08 21:55:13.718 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <acquisition in progress>)
+$$ M:/data/Sokolenko/nmr/PP1/1/audita.txt
+(   2,<2025-01-08 21:55:34.889 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <created by zg on 'Avance NEO 500' (CZC1459CSP) by user 'CZC1459CSP\nmr'
+       on data set with UUID '3d00528c-ce0b-11ef-bbd6-0030d62dd8fa'
+       started at 2025-01-08 21:55:13.829 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2025-01-08 21:55:34.885 +0000
+       configuration hash MD5:
+       EC 85 D1 F8 9E 0A 3A 5E B7 23 E6 6E 90 B5 BB FB
+       double data hash MD5: 32K
+       E4 D9 F0 BD 44 CD DD F9 DE 5A 0D 2D 8B E2 61 4C>)
+(   3,<2025-01-08 17:55:39.882 -0400>,<nmr>,<CZC1459CSP>,<proc1d>,<TopSpin 4.1.4>,
+      <Start of raw data processing
+       ef LB = 10 FT_mod = 6 PKNL = 1 SI = 64K 
+       data hash MD5: 64K
+       E0 93 1F 75 D5 9E 1C 1F 9D 6F 5C 7F 84 F3 39 8A>)
+(   4,<2025-01-08 17:55:40.304 -0400>,<nmr>,<CZC1459CSP>,<proc1d>,<TopSpin 4.1.4>,
+      <apk 
+       data hash MD5: 64K
+       DD DC 08 63 AA 6E C7 6E 0F F9 BB C2 35 34 08 62>)
+(   5,<2025-01-08 17:55:40.491 -0400>,<nmr>,<CZC1459CSP>,<proc1d>,<TopSpin 4.1.4>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       57 3D 23 93 9C 87 6C 17 A2 66 76 68 64 8A 9B 3C>)
+(   6,<2025-01-08 17:55:40.757 -0400>,<nmr>,<CZC1459CSP>,<peak>,<TopSpin 4.1.4>,
+      <1D Peak picking
+       data hash MD5: 64K
+       57 3D 23 93 9C 87 6C 17 A2 66 76 68 64 8A 9B 3C>)
+(   7,<2025-01-08 18:18:11.245 -0400>,<nmr>,<CZC1459CSP>,<proc1d>,<TopSpin 4.1.4>,
+      <Start of raw data processing
+       em LB = 0.3 SI = 64K 
+       data hash MD5: 64K
+       93 55 6A 5C 10 39 94 7A A0 AA F4 AA 85 3F 91 F9>)
+(   8,<2025-01-08 18:18:11.495 -0400>,<nmr>,<CZC1459CSP>,<proc1d>,<TopSpin 4.1.4>,
+      <ft FT_mod = 6 PKNL = 1 SI = 64K 
+       data hash MD5: 64K
+       47 12 FC 16 96 47 D6 38 80 C8 67 AD 2D 6C 6F 9F>)
+(   9,<2025-01-08 18:18:13.370 -0400>,<nmr>,<CZC1459CSP>,<proc1d>,<TopSpin 4.1.4>,
+      <apk0 
+       data hash MD5: 64K
+       81 64 56 6F FC 32 20 BB 90 69 A4 99 C3 E2 74 83>)
+(  10,<2025-01-08 18:18:14.604 -0400>,<nmr/Sokolenko>,<CZC1459CSP>,<peak>,<TopSpin 4.1.4>,
+      <1D Peak picking
+       data hash MD5: 64K
+       81 64 56 6F FC 32 20 BB 90 69 A4 99 C3 E2 74 83>)
+(  11,<2025-01-08 18:18:14.932 -0400>,<nmr/Sokolenko>,<CZC1459CSP>,<peak>,<TopSpin 4.1.4>,
+      <1D Peak picking
+       data hash MD5: 64K
+       81 64 56 6F FC 32 20 BB 90 69 A4 99 C3 E2 74 83>)
+(  12,<2025-01-08 18:18:15.854 -0400>,<nmr/Sokolenko>,<CZC1459CSP>,<xwish3>,<TopSpin 4.1.4>,
+      <ICON-NMR User ID: Sokolenko
+       data hash MD5: 64K
+       81 64 56 6F FC 32 20 BB 90 69 A4 99 C3 E2 74 83>)
+##END=
+
+$$ hash MD5
+$$ 32 7F CB AA 23 33 07 A5 39 1D 2F BB 04 8B 2B 64

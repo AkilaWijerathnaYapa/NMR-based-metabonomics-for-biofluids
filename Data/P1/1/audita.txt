@@ -1,0 +1,39 @@
+##TITLE= Audit trail, TopSpin 4.1.4
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= root
+$$ /root/.topspin-BladeEpu/local_acqu/P1/1/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2025-01-08 19:46:13.768 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <acquisition in progress>)
+$$ M:/data/Sokolenko/nmr/P1/1/audita.txt
+(   2,<2025-01-08 19:46:35.170 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <created by zg on 'Avance NEO 500' (CZC1459CSP) by user 'CZC1459CSP\nmr'
+       on data set with UUID '379e8a6e-cdf9-11ef-96ca-0030d62dd8fa'
+       started at 2025-01-08 19:46:13.947 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2025-01-08 19:46:35.166 +0000
+       configuration hash MD5:
+       EC 85 D1 F8 9E 0A 3A 5E B7 23 E6 6E 90 B5 BB FB
+       double data hash MD5: 32K
+       42 11 EE CA 56 25 1A 35 C0 B5 CE 7F 35 4F FE 07>)
+(   3,<2025-01-08 19:47:36.429 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <raw data deleted by zg>)
+(   4,<2025-01-08 19:47:36.448 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <acquisition in progress>)
+(   5,<2025-01-08 20:09:08.021 +0000>,<CZC1459CSP\nmr>,<CZC1459CSP>,<go4>,<TopSpin 4.1.4>,
+      <created by zg on 'Avance NEO 500' (CZC1459CSP) by user 'CZC1459CSP\nmr'
+       on data set with UUID '68ecbb72-cdf9-11ef-84d9-0030d62dd8fa'
+       started at 2025-01-08 19:47:36.538 +0000, POWCHK enabled, PULCHK disabled,
+       completed at 2025-01-08 20:09:08.017 +0000
+       configuration hash MD5:
+       EC 85 D1 F8 9E 0A 3A 5E B7 23 E6 6E 90 B5 BB FB
+       double data hash MD5: 32K
+       D2 1F 09 01 55 24 1B 30 4B 5A A2 C2 BC 91 14 F3>)
+(   6,<2025-01-08 16:09:15.068 -0400>,<nmr>,<CZC1459CSP>,<xwish3>,<TopSpin 4.1.4>,
+      <ICON-NMR User ID: Sokolenko
+       double data hash MD5: 32K
+       D2 1F 09 01 55 24 1B 30 4B 5A A2 C2 BC 91 14 F3>)
+##END=
+
+$$ hash MD5
+$$ 6D 94 71 AD 5B 8B 3B 29 2A 73 61 4B 71 40 D3 32
