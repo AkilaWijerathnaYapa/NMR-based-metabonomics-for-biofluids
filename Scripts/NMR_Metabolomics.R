@@ -1,8 +1,7 @@
 # Load required libraries
 library(tidyverse)
 library(pheatmap)
-library(FactoMineR)
-library(factoextra)
+
 
 # Define the file path
 file_path <- "F:/nmr/biofluids/NMR-based-metabonomics-for-biofluids/Data/Dummy"
@@ -16,7 +15,11 @@ data <- bind_rows(data_list, .id = "Sample_ID")
 
 # Add group information
 data <- data %>%
-  mutate(Group = if_else(Sample_ID %in% c("1", "2", "3"), "V", "P"))
+  mutate(Group = case_when(
+    Sample_ID %in% c("1", "2", "3") ~ "V",
+    Sample_ID %in% c("4", "5", "6") ~ "P",
+    Sample_ID %in% c("7", "8", "9") ~ "PP"
+  ))
 
 # Write the combined data to a new CSV file
 write.csv(data, file = file.path(file_path, "Combined_Data.csv"), row.names = FALSE)
@@ -31,10 +34,6 @@ pca_data <- data %>%
   pivot_wider(names_from = Compound_Name, values_from = Concentration_uM) %>% # Create wide format
   column_to_rownames("Sample_ID") # Set Sample_ID as row names
 
-# Check PCA data
-print(head(pca_data))
-
-
 # Perform PCA using base R
 pca_results <- prcomp(pca_data, scale. = TRUE)
 
@@ -44,11 +43,9 @@ pca_var <- summary(pca_results)$importance # Explained variance
 pca_scores$Sample_ID <- rownames(pca_data) # Add Sample_ID for identification
 
 # Merge with group information
+sample_groups <- data %>% select(Sample_ID, Group) %>% distinct()
 pca_scores <- pca_scores %>%
   left_join(sample_groups, by = "Sample_ID")
-
-
-library(ggplot2)
 
 # Plot the first two principal components
 ggplot(pca_scores, aes(x = PC1, y = PC2, color = Group)) +
@@ -58,8 +55,6 @@ ggplot(pca_scores, aes(x = PC1, y = PC2, color = Group)) +
   labs(title = "PCA of Metabolomics Data",
        x = paste0("PC1 (", round(pca_var[2, 1] * 100, 1), "%)"),
        y = paste0("PC2 (", round(pca_var[2, 2] * 100, 1), "%)"))
-
-
 
 # Pivot wider to prepare data for heatmap
 heatmap_data <- data %>%
@@ -81,7 +76,6 @@ rownames(heatmap_matrix) <- heatmap_data$Compound_Name
 column_annotation <- sample_groups$Group
 names(column_annotation) <- sample_groups$Sample_ID
 
-
 # Plot heatmap
 pheatmap(heatmap_matrix,
          scale = "row", # Scale rows (standardize metabolites)
@@ -92,28 +86,6 @@ pheatmap(heatmap_matrix,
          show_colnames = TRUE, # Show sample IDs
          main = "Heatmap of Metabolomics Data")
 
-
-
-
-# Identify top 5 metabolites for each group
-top_metabolites <- data %>%
-  group_by(Group, Compound_Name) %>%
-  summarise(Average_Concentration = mean(Concentration_uM, na.rm = TRUE)) %>%
-  arrange(Group, desc(Average_Concentration)) %>%
-  group_by(Group) %>%
-  slice_max(order_by = Average_Concentration, n = 5)
-
-print(top_metabolites)
-
-# Compare "V" vs "P" for top 5 metabolites
-comparison <- top_metabolites %>%
-  pivot_wider(names_from = Group, values_from = Average_Concentration) %>%
-  mutate(Fold_Change = V / P)
-
-print(comparison)
-
-library(ggplot2)
-
 # Identify top 5 metabolites for each group
 top_metabolites <- data %>%
   group_by(Group, Compound_Name) %>%
@@ -123,11 +95,21 @@ top_metabolites <- data %>%
   slice_max(order_by = Average_Concentration, n = 5) %>%
   ungroup()
 
-# Filter the original data to include only the top metabolites
+print(top_metabolites)
+
+# Compare groups for top 5 metabolites
+comparison <- top_metabolites %>%
+  pivot_wider(names_from = Group, values_from = Average_Concentration) %>%
+  mutate(across(everything(), ~ replace_na(.x, 0))) %>% # Handle missing values
+  mutate(Fold_Change_VP = V / P,
+         Fold_Change_PP = PP / P)
+
+print(comparison)
+
+# Plot box plots for the top 5 metabolites
 top_metabolites_data <- data %>%
   filter(Compound_Name %in% top_metabolites$Compound_Name)
 
-# Plot box plots for the top 5 metabolites
 ggplot(top_metabolites_data, aes(x = Group, y = Concentration_uM, fill = Group)) +
   geom_boxplot() +
   facet_wrap(~Compound_Name, scales = "free_y") +
